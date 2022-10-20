@@ -1,0 +1,531 @@
+main{
+    margin: 0px;
+}
+
+
+
+
+
+header{
+    position:sticky;
+    top: 0;
+    background-color: white;
+    margin-top: 0px;
+    z-index: 1;
+    margin-bottom: 0px;
+}
+
+
+
+.group a{
+    color: rgb(32, 15, 15);
+    font-size:18px;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+    font-family: 'Teko', sans-serif;
+}
+
+.group a:hover{
+    color: rgb(102, 62, 62);
+}
+
+
+
+.group{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    height: 40px;
+    
+    position: sticky;
+    
+    
+}
+
+
+.group .højre{
+    
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    
+}
+
+
+.group .højre a{
+    font-size: small;
+    background-color: black;
+
+    font-weight: bold;
+    
+}
+
+.group .højre a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(121, 14, 14);
+    text-decoration-thickness: 2px;
+    color: rgb(153, 153, 153);
+    
+}
+
+
+.group .midt{
+    
+    width:50%;
+    display: flex;
+    justify-content: center;
+    margin-top:9px;
+    
+}
+
+
+.group .venstre{
+    width: 25%;
+    color: rgb(32, 15, 15);
+    margin-top:0px;
+}
+
+.group .venstre h1{ 
+    font-size: x-large;
+    margin-top: 6px;
+    font-family: 'Teko', sans-serif;
+    color: rgb(83, 48, 48);
+
+}
+
+.underline{
+    height: 2px;
+    
+    background-color: rgb(59, 15, 15);
+    margin-bottom:0px;
+
+}
+
+
+
+.topsection{
+    text-align: center;
+    height:750px;
+    margin-bottom: 60px;
+    margin-top: 0px;
+    color: white;
+    background-image: url(images/clubbaggrund3.jpg);
+    background-repeat: no-repeat;
+    position:relative;
+    background-size:cover;
+}
+
+.topsection p{
+    margin-top: 10px;
+    font-weight: 0;
+    font-size: 0px;
+}
+
+.topsection h2{
+    font-size: 60px;
+    margin-top: 230px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 10;
+    
+}
+
+.topsection h3{
+    font-size:17px ;
+   font-weight: lighter;
+  
+}
+
+.topsection h4{
+    font-size: 20px;
+
+}
+
+.topsection hr{
+    width:150px;
+    margin-bottom:10px;
+    margin-top: 5px;
+}
+
+
+
+
+/*VALG AF BY*/
+
+.section1{
+    
+    height:400px;
+    
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.section1 h1{
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Teko', sans-serif;
+    color: white;
+    margin-top: 30px;
+}
+
+.section1 .box1{
+    width: 25%;
+    background-image: url(images/kbh2.jpeg);
+    background-repeat: no-repeat;
+    position:relative;
+    background-size:cover;
+}
+
+.section1 .box1:hover{
+    scale: 100.5%;
+}
+
+.section1 .box2{
+    width: 25%;
+    background-image: url(images/aarhus2.jpeg);
+    background-repeat: no-repeat;
+    position:relative;
+    background-size:cover;
+    
+}
+
+.section1 .box2:hover{
+    scale: 100.5%;
+}
+
+.section1 .box3{
+    width: 25%;
+    background-image: url(images/aarhus2.jpeg);
+    background-repeat: no-repeat;
+    position:relative;
+    background-size:cover;
+}
+
+.section1 .box3:hover{
+    scale: 100.5%;
+}
+
+
+
+
+
+
+/*NYHEDSSEKTION*/
+
+.section2{
+    background-color: rgb(47, 44, 44);
+    height:900px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section2 h2{
+    font-family: 'Mukta', sans-serif;
+    font-size:13pt;
+}
+
+.section2 .box1{
+    
+    width: 20%;
+}
+
+.section2 .box2{
+    
+    width: 60%;
+    margin-top: 0px;
+    color: white;
+}
+
+.section2 .box3{
+    
+    width: 20%;
+}
+
+
+
+/*NYHEDSARTIKLEN OVERSKRIFT*/
+
+.section2 .box2 .slide1{
+    height: 50px;
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+.section2 .box2 .slide1 h1{
+    margin-top: 20px;
+    font-family: 'Teko', sans-serif;
+    
+
+}
+
+
+
+
+
+
+
+
+/*NYHEDSARTIKLEN LINK 1*/
+
+
+.section2 .box2 .slide2{
+    height:190px;
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+    text-align: start;
+    
+}
+
+.section2 .box2 .slide2 h2{
+    margin-top: 0px;
+    font-size:13pt;
+    font-family: 'Mukta', sans-serif;
+}
+
+.section2 .box2 .slide2 .left{
+    
+    width: 90%;
+    background-image: url(images/club3.jpg);
+    background-repeat: no-repeat;
+    position:relative;
+    background-size:cover;
+}
+
+.section2 .box2 .slide2 .mid{
+    
+    width: 5%;
+}
+
+
+.section2 .box2 .slide2 .right{
+    
+    width: 90%;
+}
+
+.section2 .box2 .slide2 .right p{
+    font-weight: 2;
+    margin-bottom:10px;
+    line-height: 20px;
+    
+}
+
+.section2 .box2 .slide2 .right a{
+    text-align: center;
+    margin-top:70px;
+    text-decoration: none;
+    color: white;
+
+    
+
+}
+
+.section2 .box2 .slide2 .right a:hover{
+    color: rgb(83, 48, 48);
+    
+}
+
+
+.section2 .box2 .breaker{
+    background-color: white;
+    height: 0.5px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+/*NYHEDSARTIKLEN LINK 2*/
+
+
+.section2 .box2 .slide3{
+    height: 30%;
+    
+    
+}
+
+.section2 .box2 .slide3{
+    height:190px;
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+    text-align: start;
+    
+}
+
+.section2 .box2 .slide3 h2{
+    margin-top: 0px;
+    
+    font-size:13pt;
+    font-family: 'Mukta', sans-serif;
+}
+
+.section2 .box2 .slide3 .left{
+    width: 90%;
+    background-image: url(images/hangover.jpg);
+    background-repeat: no-repeat;
+    position:relative;
+    background-size:cover;
+    
+}
+
+.section2 .box2 .slide3 .mid{
+    
+    width: 5%;
+}
+
+
+.section2 .box2 .slide3 .right{
+    
+    width: 90%;
+}
+
+.section2 .box2 .slide3 .right p{
+    font-weight: 2;
+    margin-bottom:10px;
+    
+}
+
+.section2 .box2 .slide3 .right a{
+    text-align: center;
+    margin-top:50px;
+    text-decoration: none;
+    color: white;
+
+    
+
+}
+
+.section2 .box2 .slide3 .right a:hover{
+    color: rgb(83, 48, 48);
+    
+}
+
+.section2 .box2 .breaker2{
+    background-color: white;
+    height: 0.5px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+/*NYHEDSARTIKLEN LINK 3*/
+
+.section2 .box2 .slide4{
+    height: 30%;
+    
+}
+
+
+
+.section2 .box2 .slide4{
+    height:190px;
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+    text-align: start;
+    
+}
+
+.section2 .box2 .slide4 h2{
+    margin-top: 0px;
+    font-size: large;
+}
+
+.section2 .box2 .slide4 .left{
+    width: 90%;
+    background-image: url(images/dj.jpg);
+    background-repeat: no-repeat;
+    position:relative;
+    background-size:cover;
+    
+}
+
+.section2 .box2 .slide4 .mid{
+    
+    width: 5%;
+}
+
+
+.section2 .box2 .slide4 .right{
+    
+    width: 90%;
+}
+
+.section2 .box2 .slide4 .right p{
+    font-weight: 2;
+    margin-bottom:10px;
+    
+}
+
+.section2 .box2 .slide4 .right a{
+    text-align: center;
+    margin-top:50px;
+    text-decoration: none;
+    color: white;
+
+    
+
+}
+
+.section2 .box2 .slide4 .right a:hover{
+    color: rgb(83, 48, 48);
+    
+}
+
+
+
+
+/*FOOTER*/
+
+footer{
+    height:200px;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+}
+
+
+footer .box1{
+    width: 25%;
+    
+}
+
+footer .box2{
+    width: 50%;
+    
+}
+
+footer .box2 h1{
+    margin-top: 70px;
+    font-size: x-large;
+    color: rgb(83, 48, 48);
+}
+
+footer .box3{
+    width: 25%;
+    
+}
+
+
+
+
